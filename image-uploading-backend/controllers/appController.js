@@ -34,7 +34,7 @@ exports.uploadImage = function (req, res) {
 
   // for creating the name of image.
   var imageName = req.body.name.substr(0, req.body.name.lastIndexOf(".")) + '_' + Math.random() + '.' + req.body.type.substr(req.body.type.indexOf("/") + 1);
-  var imagePath = 'D:/Image Uploading/image-uploading-backend/images' + "/" + imageName;
+  var imagePath = process.cwd() + '/images' + "/" + imageName;
   FileSystem.writeFile(imagePath, imgresponse.data, function (error) {
     if (error) {
       console.log("in error", error)
