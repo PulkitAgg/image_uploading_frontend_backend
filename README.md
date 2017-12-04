@@ -11,15 +11,18 @@ This repo gives full idea about how we can uplaod image on the server and get im
 Make sure you have latest version of node and react js in your system.
 
 ### Step 1:
-Open the terminal and run this command   
+Open the terminal and run this command  
+
 `$git clone https://github.com/PulkitAgg/image_uploading_frontend_backend.git`
 
 ### Step 2:
 Migrate to the project which is cloned right now i.e run this commmand   
+
 `$cd image_uploading_frontend_backend/`
 
 ### Step 3:
 First start the mongodb server using   
+
 `$ mongod`
 
 ### Step 4: 
@@ -27,11 +30,13 @@ Setup for node js
 * `$ cd image-uploading-ui/`
 * `$ npm install`
 * `$ node app.js`  
+
 Now node server runs on 8888 port number.
 
 
 ### Step 4:
 Setup for react js  
+
 * `$ cd image-uploading-backend/`
 * `$ npm install`
 * `$ node start`
