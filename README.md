@@ -34,12 +34,12 @@ Setup for node js
 Now node server runs on 8888 port number.
 
 
-### Step 4:
+### Step 5:
 Setup for react js  
 
 * `$ cd image-uploading-backend/`
 * `$ npm install`
 * `$ node start`
 
-### Step 5:
+### Step 6:
 Now you are ready with project and check you browser. You can upload you image by choosing the file and get your image by clicking on the get all images button.
