@@ -10,7 +10,6 @@ var Image = require('../models/image');
 var FileSystem = require('fs');
 
 exports.uploadImage = function (req, res) {
-  console.log("req.body111", req.body)
   let image = req.body.base64Image;
   let matches = image.match(/^data:([A-Za-z-+/]+);base64,(.+)$/)
   let imgresponse = {}
@@ -37,7 +36,6 @@ exports.uploadImage = function (req, res) {
   var imagePath = process.cwd() + '/images' + "/" + imageName;
   FileSystem.writeFile(imagePath, imgresponse.data, function (error) {
     if (error) {
-      console.log("in error", error)
       res.status(500).send("Something Went Worng During Saving the image.");
       res.end();
     } else {
@@ -67,7 +65,6 @@ exports.uploadImage = function (req, res) {
 }
 
 exports.getImages = function (req, res) {
-  console.log("in get images")
   Image.find({}, function (error, response) {
     if (error) {
       return res.json(req, res, error);
