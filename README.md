@@ -26,8 +26,8 @@ First start the mongodb server using
 `$ mongod`
 
 ### Step 4: 
-Setup for node js
-* `$ cd image-uploading-ui/`
+Setup for node js(Run these commands from root directory of the project)
+* `$ cd image-uploading-backend/`
 * `$ npm install`
 * `$ node app.js`  
 
@@ -35,11 +35,11 @@ Now node server runs on 8888 port number.
 
 
 ### Step 5:
-Setup for react js  
+Setup for react js(Run these commands from root directory of the project)  
 
-* `$ cd image-uploading-backend/`
+* `$ cd image-uploading-ui/`
 * `$ npm install`
-* `$ node start`
+* `$ npm start`
 
 ### Step 6:
 Now you are ready with project and check you browser. You can upload you image by choosing the file and get your image by clicking on the get all images button.
