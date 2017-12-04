@@ -31,7 +31,9 @@ Setup for node js(Run these commands from root directory of the project)
 * `$ npm install`
 * `$ node app.js`  
 
-Now node server runs on 8888 port number.
+Now node server runs on 8888 port number.  
+
+Add folder with `images' name in your image-uploading-backend directory where images will save.
 
 
 ### Step 5:
