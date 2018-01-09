@@ -3,7 +3,7 @@ This repo gives full idea about how we can uplaod image on the server and get im
 
 ## Prerequisites:
 * Mongodb is installed [Steps for installing mongodb](https://docs.mongodb.com/manual/installation/)
-* Node js is also installed in your system [Steps for isntalling node js](https://nodejs.org/en/download/)
+* Node js is also installed in your system [Steps for installing node js](https://nodejs.org/en/download/)
 * React js is also installed [Steps for installing react js](https://reactjs.org/docs/installation.html)  
 
 
